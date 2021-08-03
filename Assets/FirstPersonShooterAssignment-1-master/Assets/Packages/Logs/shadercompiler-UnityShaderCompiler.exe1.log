@@ -1,0 +1,60 @@
+Base path: 'C:/Program Files/Unity/Hub/Editor/2020.3.4f1/Editor/Data', plugins path 'C:/Program Files/Unity/Hub/Editor/2020.3.4f1/Editor/Data/PlaybackEngines'
+Cmd: initializeCompiler
+
+Cmd: compileComputeKernel
+  insize=102389 file=C:/Users/Gopalakrishnareddy/FPS and TPS Game/Assets/FirstPersonShooterAssignment-1-master/FirstPersonShooterAssignment-1-master/Assets/SoftEffects/Shaders/SoftEffectsCompute.compute kernel=CSDistMAAFloat cachingPP=1 ppOnly=0 stripLineD=0 buildPlatform=5 km=<UNITY_VERSION=202034> pKW=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_COLORSPACE_GAMMA UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR uKW=SHADER_STAGE_COMPUTE platform=d3d11 flags=0  error: 1 plat 4 at SoftEffectsCompute.compute(674): implicit truncation of vector type
+  error: 1 plat 4 at SoftEffectsCompute.compute(722): implicit truncation of vector type
+  error: 1 plat 4 at SoftEffectsCompute.compute(769): implicit truncation of vector type
+  error: 1 plat 4 at SoftEffectsCompute.compute(817): implicit truncation of vector type
+ ok=1 outsize=1664
+
+Cmd: compileComputeKernel
+  insize=102389 file=C:/Users/Gopalakrishnareddy/FPS and TPS Game/Assets/FirstPersonShooterAssignment-1-master/FirstPersonShooterAssignment-1-master/Assets/SoftEffects/Shaders/SoftEffectsCompute.compute kernel=CSDistM cachingPP=1 ppOnly=0 stripLineD=0 buildPlatform=5 km=<UNITY_VERSION=202034> pKW=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_COLORSPACE_GAMMA UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR uKW=SHADER_STAGE_COMPUTE platform=d3d11 flags=0  error: 1 plat 4 at SoftEffectsCompute.compute(674): implicit truncation of vector type
+  error: 1 plat 4 at SoftEffectsCompute.compute(722): implicit truncation of vector type
+  error: 1 plat 4 at SoftEffectsCompute.compute(769): implicit truncation of vector type
+  error: 1 plat 4 at SoftEffectsCompute.compute(817): implicit truncation of vector type
+ ok=1 outsize=1444
+
+Cmd: compileComputeKernel
+  insize=102389 file=C:/Users/Gopalakrishnareddy/FPS and TPS Game/Assets/FirstPersonShooterAssignment-1-master/FirstPersonShooterAssignment-1-master/Assets/SoftEffects/Shaders/SoftEffectsCompute.compute kernel=CSVerBlur8_BUF cachingPP=1 ppOnly=0 stripLineD=0 buildPlatform=5 km=<UNITY_VERSION=202034> pKW=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_COLORSPACE_GAMMA UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR uKW=SHADER_STAGE_COMPUTE platform=d3d11 flags=0  error: 1 plat 4 at SoftEffectsCompute.compute(674): implicit truncation of vector type
+  error: 1 plat 4 at SoftEffectsCompute.compute(722): implicit truncation of vector type
+  error: 1 plat 4 at SoftEffectsCompute.compute(769): implicit truncation of vector type
+  error: 1 plat 4 at SoftEffectsCompute.compute(817): implicit truncation of vector type
+ ok=1 outsize=1478
+
+Cmd: compileComputeKernel
+  insize=102389 file=C:/Users/Gopalakrishnareddy/FPS and TPS Game/Assets/FirstPersonShooterAssignment-1-master/FirstPersonShooterAssignment-1-master/Assets/SoftEffects/Shaders/SoftEffectsCompute.compute kernel=CSVerBlur250_BUF cachingPP=1 ppOnly=0 stripLineD=0 buildPlatform=5 km=<UNITY_VERSION=202034> pKW=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_COLORSPACE_GAMMA UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR uKW=SHADER_STAGE_COMPUTE platform=d3d11 flags=0  error: 1 plat 4 at SoftEffectsCompute.compute(674): implicit truncation of vector type
+  error: 1 plat 4 at SoftEffectsCompute.compute(722): implicit truncation of vector type
+  error: 1 plat 4 at SoftEffectsCompute.compute(769): implicit truncation of vector type
+  error: 1 plat 4 at SoftEffectsCompute.compute(817): implicit truncation of vector type
+ ok=1 outsize=1501
+
+Cmd: compileComputeKernel
+  insize=102389 file=C:/Users/Gopalakrishnareddy/FPS and TPS Game/Assets/FirstPersonShooterAssignment-1-master/FirstPersonShooterAssignment-1-master/Assets/SoftEffects/Shaders/SoftEffectsCompute.compute kernel=CSDistMEAAFloatSigned cachingPP=1 ppOnly=0 stripLineD=0 buildPlatform=5 km=<UNITY_VERSION=202034> pKW=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_COLORSPACE_GAMMA UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR uKW=SHADER_STAGE_COMPUTE platform=d3d11 flags=0  error: 1 plat 4 at SoftEffectsCompute.compute(674): implicit truncation of vector type
+  error: 1 plat 4 at SoftEffectsCompute.compute(722): implicit truncation of vector type
+  error: 1 plat 4 at SoftEffectsCompute.compute(769): implicit truncation of vector type
+  error: 1 plat 4 at SoftEffectsCompute.compute(817): implicit truncation of vector type
+  error: 1 plat 4 at SoftEffectsCompute.compute(3196): integer divides may be much slower, try using uints if possible.
+ ok=1 outsize=3780
+
+Cmd: compileComputeKernel
+  insize=102389 file=C:/Users/Gopalakrishnareddy/FPS and TPS Game/Assets/FirstPersonShooterAssignment-1-master/FirstPersonShooterAssignment-1-master/Assets/SoftEffects/Shaders/SoftEffectsCompute.compute kernel=CSDistBufferToInnerGlowPrec_R8 cachingPP=1 ppOnly=0 stripLineD=0 buildPlatform=5 km=<UNITY_VERSION=202034> pKW=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_COLORSPACE_GAMMA UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR uKW=SHADER_STAGE_COMPUTE platform=d3d11 flags=0  error: 1 plat 4 at SoftEffectsCompute.compute(674): implicit truncation of vector type
+  error: 1 plat 4 at SoftEffectsCompute.compute(722): implicit truncation of vector type
+  error: 1 plat 4 at SoftEffectsCompute.compute(769): implicit truncation of vector type
+  error: 1 plat 4 at SoftEffectsCompute.compute(817): implicit truncation of vector type
+ ok=1 outsize=1746
+
+Cmd: compileComputeKernel
+  insize=102389 file=C:/Users/Gopalakrishnareddy/FPS and TPS Game/Assets/FirstPersonShooterAssignment-1-master/FirstPersonShooterAssignment-1-master/Assets/SoftEffects/Shaders/SoftEffectsCompute.compute kernel=CSSepBevelCutIn cachingPP=1 ppOnly=0 stripLineD=0 buildPlatform=5 km=<UNITY_VERSION=202034> pKW=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_COLORSPACE_GAMMA UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR uKW=SHADER_STAGE_COMPUTE platform=d3d11 flags=0  error: 1 plat 4 at SoftEffectsCompute.compute(674): implicit truncation of vector type
+  error: 1 plat 4 at SoftEffectsCompute.compute(722): implicit truncation of vector type
+  error: 1 plat 4 at SoftEffectsCompute.compute(769): implicit truncation of vector type
+  error: 1 plat 4 at SoftEffectsCompute.compute(817): implicit truncation of vector type
+ ok=1 outsize=764
+
+Cmd: compileComputeKernel
+  insize=102389 file=C:/Users/Gopalakrishnareddy/FPS and TPS Game/Assets/FirstPersonShooterAssignment-1-master/FirstPersonShooterAssignment-1-master/Assets/SoftEffects/Shaders/SoftEffectsCompute.compute kernel=CSFullCopy cachingPP=1 ppOnly=0 stripLineD=0 buildPlatform=5 km=<UNITY_VERSION=202034> pKW=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_COLORSPACE_GAMMA UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR uKW=SHADER_STAGE_COMPUTE platform=d3d11 flags=0  error: 1 plat 4 at SoftEffectsCompute.compute(674): implicit truncation of vector type
+  error: 1 plat 4 at SoftEffectsCompute.compute(722): implicit truncation of vector type
+  error: 1 plat 4 at SoftEffectsCompute.compute(769): implicit truncation of vector type
+  error: 1 plat 4 at SoftEffectsCompute.compute(817): implicit truncation of vector type
+ ok=1 outsize=2160
+
