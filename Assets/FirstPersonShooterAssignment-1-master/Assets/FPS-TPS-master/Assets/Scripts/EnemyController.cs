@@ -14,6 +14,7 @@ public class EnemyController : MonoBehaviour
     public GameObject enemyBulletPrefab;
     public Transform enmeyFirePoint;
     public Animator enemyAnim;
+    public float bulletDestroy=4;
     public float fireRate, fireCount,fireWaitCounter,waitBtwnShoots,shootTimeCounter;//enemy fire rate controller
     // Start is called before the first frame update
     void Start()
@@ -60,7 +61,7 @@ public class EnemyController : MonoBehaviour
             }
             else
             {
-                enemyAnim.SetBool("isRun",false);
+                //enemyAnim.SetBool("isRun",false);
                 navMesh.destination = startingPoint;
             }
            
@@ -98,12 +99,13 @@ public class EnemyController : MonoBehaviour
                         {
                             
                             Instantiate(enemyBulletPrefab, enmeyFirePoint.position, enmeyFirePoint.rotation);
+                            Destroy(enemyBulletPrefab, bulletDestroy);
                         }
                         else
                         {
                             fireWaitCounter = waitBtwnShoots;
                         }
-                        enemyAnim.SetBool("isRun", false);
+                        //enemyAnim.SetBool("isRun", false);
 
                         navMesh.destination = transform.position;
 

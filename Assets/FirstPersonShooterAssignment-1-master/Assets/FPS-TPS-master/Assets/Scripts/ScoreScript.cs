@@ -6,7 +6,7 @@ using UnityEngine.SceneManagement;
 
 public class ScoreScript : MonoBehaviour
 {
-    int coins;
+    public int coins;
     int enemies;
     int highScore=0;
     public int High;

@@ -23,7 +23,14 @@ public class PlayerHealth : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        if (ScoreScript.scoreInstance.coins == 8)
+        {
+            currentHealth = maxHealth;
+            UIContorller.instance.playerSlider.value = currentHealth;
+
+            UIContorller.instance.healthText.text = currentHealth.ToString();
+
+        }
     }
     public void PlayerDamage(int damageCount)
     {
@@ -35,6 +42,8 @@ public class PlayerHealth : MonoBehaviour
             //SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
         }
         UIContorller.instance.playerSlider.value = currentHealth;
-        UIContorller.instance.healthText.text = "Health "+ currentHealth;
+        UIContorller.instance.healthText.text = currentHealth.ToString();
+
+        
     }
 }
