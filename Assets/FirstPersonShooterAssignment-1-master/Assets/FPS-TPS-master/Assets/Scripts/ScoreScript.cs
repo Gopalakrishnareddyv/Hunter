@@ -12,6 +12,8 @@ public class ScoreScript : MonoBehaviour
     public int High;
     public Text coinsText;
     public Text enemiesText;
+    bool coinCount;
+    bool enemyCount;
     public static ScoreScript scoreInstance;
     private void Awake()
     {
@@ -21,6 +23,10 @@ public class ScoreScript : MonoBehaviour
     {
         coins++;
         coinsText.text = "Coins : " + coins;
+        if (coins == 10)
+        {
+            coinCount = true;
+        }
         if (coins > highScore)
         {
             High = coins;
@@ -37,9 +43,16 @@ public class ScoreScript : MonoBehaviour
         enemiesText.text = "Enemies : " + enemies;
         if (enemies == 3)
         {
-            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+            enemyCount = true;
             PlayerData.Instance.SetData();
             PlayerData.Instance.GetData();
+        }
+    }
+    private void Update()
+    {
+        if (coinCount && enemyCount)
+        {
+            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex+1);
         }
     }
 
